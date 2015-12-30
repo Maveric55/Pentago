@@ -14,20 +14,20 @@ def fenetre():
     RED = (155,0,0)
     BLACK = (0,0,0)
     RED1 = (120,0,0)
-    x=25
-    y=25
-    y2=180
+    x=50
+    y=50
+    y2=205
 
 #affichage du plateau de jeu
-    while x < 181 and y < 181 :
-        if x==25 and y==25 :
+    while x < 206 and y < 206 :
+        if x==50 and y==50 :
             quadrant(jeu, RED, RED1, x, y)
             quadrant(jeu, RED, RED1, x, y2)
             x+=155
-        elif x==180 and y==25 :
+        elif x==205 and y==50 :
             quadrant(jeu, RED, RED1, x, y)
             y+=155
-        elif x==180 and y==180 :
+        elif x==205 and y==205 :
             quadrant(jeu, RED, RED1, x, y)
             x+=155
             y+=155
